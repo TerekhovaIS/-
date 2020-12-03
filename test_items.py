@@ -2,7 +2,7 @@ import time
 
 link = "http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/"
 
-def test_guest_should_see_login_link_pass(browser):
+def test_find__card_button(browser):
     try:
         browser.get(link)
         basket_button = browser.find_element_by_css_selector(".btn-add-to-basket")
